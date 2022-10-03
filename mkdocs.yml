@@ -1,0 +1,15 @@
+site_name: TcsCraft 文档
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: amber
+nav:
+    - 首页: index.md
+    - 开始游玩: start.md
+    - 常见问题: help.md
+copyright: Copyright &copy; 2021 - 2022 xiaoioi
+extra:
+  generator: false
+# Repository
+repo_url: https://github.com/xiaoioi/TcsCraftdocs
