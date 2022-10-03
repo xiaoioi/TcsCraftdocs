@@ -12,5 +12,7 @@ nav:
 copyright: Copyright &copy; 2021 - 2022 xiaoioi
 extra:
   generator: false
+markdown_extensions:
+  - attr_list
 # Repository
 repo_url: https://github.com/xiaoioi/TcsCraftdocs
