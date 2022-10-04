@@ -3,10 +3,10 @@ theme:
   name: material
   language: zh
   palette:
-    primary: amber
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -14,6 +14,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
