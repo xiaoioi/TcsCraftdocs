@@ -4,7 +4,6 @@ theme:
   language: zh
   palette:
     primary: amber
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
