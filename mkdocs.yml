@@ -1,4 +1,4 @@
-site_name: TcsCraft 文档
+site_name: Tian 文档
 theme:
   name: material
   language: zh
@@ -21,11 +21,9 @@ theme:
 nav:
     - 首页: index.md
     - 开始游玩: start.md
-    - 服务器列表: list.md
     - 活动日历: announcement.md
     - 常见问题: help.md
-    - 论坛: https://www.xiqo.eu.org/
-copyright: Copyright &copy; 2021 - 2022 xiaoioi
+copyright: Copyright &copy; 2021 - 2022 xiaoioi mkdocs
 extra:
   generator: false
 markdown_extensions:
