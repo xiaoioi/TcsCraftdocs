@@ -1,0 +1,750 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.4">
+    
+    
+      
+        <title>IVshop使用教程 - Tian 文档</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.9c788c91.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ivshop" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="Tian 文档" class="md-header__button md-logo" aria-label="Tian 文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Tian 文档
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IVshop使用教程
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/xiaoioi/TcsCraftdocs" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Tian 文档" class="md-nav__button md-logo" aria-label="Tian 文档" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Tian 文档
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/xiaoioi/TcsCraftdocs" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        首页
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start/" class="md-nav__link">
+        开始游玩
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../announcement/" class="md-nav__link">
+        活动日历
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        常见问题
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    0.引言
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1.主菜单
+  </a>
+  
+    <nav class="md-nav" aria-label="1.主菜单">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    关于操作功能区域划分
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    2.我的商店
+  </a>
+  
+    <nav class="md-nav" aria-label="2.我的商店">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    商店信息编辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    商店交易记录
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    ###出售部分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    商品调整
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    商品补货
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    发布折扣
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    计分板离线经济获取
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    切换至回收商店
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    ###回收部分
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    物品委托
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    取出物品
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_13" class="md-nav__link">
+    委托更改
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    3.购买菜单
+  </a>
+  
+    <nav class="md-nav" aria-label="3.购买菜单">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_14" class="md-nav__link">
+    购买商品
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_15" class="md-nav__link">
+    筛选商店
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    4.回收菜单
+  </a>
+  
+    <nav class="md-nav" aria-label="4.回收菜单">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_16" class="md-nav__link">
+    回收物品
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    5.筛选器和商品搜索
+  </a>
+  
+    <nav class="md-nav" aria-label="5.筛选器和商品搜索">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_17" class="md-nav__link">
+    筛选器
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_18" class="md-nav__link">
+    商品搜索
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6.辅助功能
+  </a>
+  
+    <nav class="md-nav" aria-label="6.辅助功能">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pe-" class="md-nav__link">
+    PE辅助-只读模式
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    7.配置文件
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    8.关于
+  </a>
+  
+    <nav class="md-nav" aria-label="8.关于">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opop" class="md-nav__link">
+    op商店和op
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_19" class="md-nav__link">
+    插件作者
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_20" class="md-nav__link">
+    预计加入功能
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    9.存在问题
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+
+<h1 id="ivshop">IVshop使用教程</h1>
+<h2 id="0">0.引言</h2>
+<p>来自:https://github.com/kkj9333/IVshop-core/
+IVshop是一款以inventorymenu作为UI的bds服务端商店插件，功能非常强大。
+其以假数据包作为交互载体，调用玩家的背包UI，并提供商店的操作界面，相比传统表单UI，不仅更加简洁直观，而且反应速度更快，操作更便捷！电脑端只需鼠标点击即可完成各种操作，win10玩家福利！
+查询操作多线程优化，实验测试表明上万商品查询只需0.3s！且不干涉bds主线程。
+支持购买和回收功能，也支持玩家出售和全物品回收委托功能！！！
+内含丰富的操作设置，实现了商品筛选，搜索，批量补货，折扣等功能，从不同角度满足不同玩家的需求！
+同时插件支持多种语言（中文/英文），甚至可以自行扩展语言翻译！</p>
+<p>关键词：多功能商店，背包UI，多线程优化，多语言</p>
+<p>下面将从几个方面来介绍这款插件：</p>
+<h2 id="1">1.主菜单</h2>
+<p>指令：/ivshop (mainmenu)
+这里是插件的中心入口处，可以前面购买，回收，我的商店界面，这里会提供插件的交互操作帮助。</p>
+<h3 id="_1">关于操作功能区域划分</h3>
+<p>玩家背包的热键部分（最底下一行）被定义为操作功能区，一般包含各种操作；
+玩家背包的背包部分（中间三行）被定义为商品展示区，商品会在这里展示；
+玩家背包的装备部分（左上角四格）被定义为菜单选项区，一般是调整设置和一些跳转操作；
+玩家背包的副手部分（副手）是特殊功能区，一般是返回上级菜单所用。</p>
+<h2 id="2">2.我的商店</h2>
+<p>指令：/ivshop myshop
+这里可以进行对商店的各种操作。
+1.  可以进行商店信息编辑，编辑自己商店名称，介绍，商店图标等信息，op可以设置成op商店。
+2.  可以浏览自己商店出售的商品，并进行编辑，补货，下架操作，可以上架新商品，可以发布折扣（可限定时长）。可以设置商品私有化（商品无法被搜索到）。</p>
+<h3 id="_2">商店信息编辑</h3>
+<p>商店的信息可以进行编辑，用于对商店的描述，商店的默认信息会在第一次打开商店时自动生成，点击商店头像即可进行进一步编辑。玩家可以编辑商店名称，描述，商店图标，op可以设置该商店为OP商店。</p>
+<h3 id="_3">商店交易记录</h3>
+<p>Ivshop提供商店日志记录，玩家可以查阅自己的商店交易记录日志。</p>
+<h3 id="_4">###出售部分</h3>
+<p>上架新商品
+玩家可以上传物品作为出售商品，出售商品会出现在出售商店界面中。
+点击上架按钮跳转到上架界面，此时会还原成你的背包UI，可以选中一个物品进行上架。本插件十分人性化，物品上架时会根据上传物品信息自动填入相关商品信息，一般情况下您只需要输入单个售价即可。</p>
+<h3 id="_5">商品调整</h3>
+<p>您可以在商品展示区调整自己的商品信息，请注意调整数量会将多余的物品返还到您的背包里，调整数量为0时，一旦提交，该商品将被下架！</p>
+<h3 id="_6">商品补货</h3>
+<p>不同于商店插件，本插件的出售时以商品为单元，因此如同大多数电商平台一样，即使物品被销售一空，只要商店主人不下架该商品，商品依旧存在，因此可以实现对商品的补货操作。
+操作流程非常简单，只需点击补货按钮，然后系统会自动计算你可以进行补货的物品，你只需要选择自己想要上传的物品并点击提交即可。</p>
+<h3 id="_7">发布折扣</h3>
+<p>您可以对自己商店的物品发布折扣，这个折扣作用范围是根据上架商品时输入的物品标签决定的，您也可以随时更改此标签。折扣分为两种，一种是直减，一种是百分比折扣，折扣存在时间长度限制，以发布折扣的时间戳作为起点，当到达规定时长后，折扣将被删除。</p>
+<h3 id="_8">计分板离线经济获取</h3>
+<p>同时对于计分板经济模式，点击商店日志记录按钮也可获得玩家不在线时商店经营所获得的钱！</p>
+<h3 id="_9">切换至回收商店</h3>
+<p>玩家可以从出售商店切换到自己的回收商店，只需点击切换按钮即可。</p>
+<h3 id="_10">###回收部分</h3>
+<h3 id="_11">物品委托</h3>
+<p>玩家可以花费一定金钱来进行物品委托，委托物品会出现在回收商店界面中。
+点击发布回收委托按钮，此时会还原成自己的背包，选择你想要进行委托的物品，点击后跳转到委托编辑界面，您可以设置您的委托物品名称，委托描述，委托数量，委托出价，以及一些筛选设置（包含筛选特殊值耐久值，筛选附魔，筛选nbt等）。
+您也可以进行全物品委托。此概念是指您从所有（包含未用有）的物品中发布委托，实现委托物品自由这也是本插件超脱其他同类插件的地方之一。
+在进行全物品委托前你需要关闭物品合成按钮（创造模式无需），然后点击发布委托按钮，此时会多出一个新的按钮，点击后可以从所有物品中选择物品发布回收委托。
+在编辑后你的委托后，点击提交，如金钱足够，委托即可申请成功。
+op玩家创建委托时不需要金钱。</p>
+<h3 id="_12">取出物品</h3>
+<p>回收委托建立后，回收物品展示区会出现你的委托物品，如果已经回收了一部分物品，你可以点击取出按钮，选择相应的委托物品来完成取货操作。</p>
+<h3 id="_13">委托更改</h3>
+<p>Ivshop允许玩家随时更改自己的委托，重新设置委托的信息。
+只需在商品展示区点击对应物品即可。两次委托的差价会被返回或收取。
+切换至出售商店
+玩家可以从回收商店切换到自己的出售商店，只需点击切换按钮即可。</p>
+<h2 id="3">3.购买菜单</h2>
+<p>指令1：/ivshop buy 全局
+指令2：/ivshop buybyshop 按玩家显示商店
+这里可以进行商品购买操作。</p>
+<h3 id="_14">购买商品</h3>
+<p>点击商品展示区的物品进行购买，并提交相应购买信息即可。</p>
+<h3 id="_15">筛选商店</h3>
+<p>点击按钮即可按玩家商店筛选并显示商店。</p>
+<h2 id="4">4.回收菜单</h2>
+<p>指令1：/ivshop reclcle全局
+指令2：/ivshop rebyshop 按玩家显示回收商店</p>
+<h3 id="_16">回收物品</h3>
+<p>点击商品展示区一个物品来进行回收操作，系统会根据委托自动筛选你可以回收槽和数量，选择你要进行回收的物品进行回收即可。</p>
+<p>筛选商店
+功能类似，不再赘述。</p>
+<h2 id="5">5.筛选器和商品搜索</h2>
+<h3 id="_17">筛选器</h3>
+<p>指令：/ivshop filter
+Ivshop提供了商品检索筛选功能，可以筛选商品的一些属性，如果筛选器不为默认值，玩家所有的搜寻过程都会启用筛选器并使用其对商品进行筛选。筛选器只在服务器运行期间有效。</p>
+<h3 id="_18">商品搜索</h3>
+<p>指令： /ivshop search [searchtype] (filterstring) (checkshopitemtag) (checkshopitemdesc)
+Ivshop支持对商品进行简单检索功能，可以从商店检索商品</p>
+<p>此功能计划作为表单gui并会加入到购买菜单和回收菜单界面的功能区中，可以点击即可进行搜索。</p>
+<h2 id="6">6.辅助功能</h2>
+<p>快捷翻页
+商店物品超过一定数量时会进行分页，玩家只需点击即可进行翻页。</p>
+<h3 id="pe-">PE辅助-只读模式</h3>
+<p>为手机版玩家设计的辅助阅读器，可以实现只读化阅读商品信息，防误触。</p>
+<p>计分板离线经济获取
+指令：/ivshop getoffscores
+获取离线的计分板金钱，效果通我的商店里的计分板离线经济获取。</p>
+<h2 id="7">7.配置文件</h2>
+<p>配置文件会自动生成在插件同级的ivshop目录里。现作简单说明：
+Moneymode 经济运行模式，默认为0 计分板。设置为1时启用LLmoney经济。
+Tax 税率 玩家交易时会收取税 默认为0。 值域0-100。
+Moneyname 启用计分板经济时的对接计分板名称，默认为money。</p>
+<h2 id="8">8.关于</h2>
+<h3 id="opop">op商店和op</h3>
+<p>在ivshop中，op商店可以无限出售和回收商品，同时出售的金钱不会转移到主人，回收的物品不会被保存。
+op建立回收委托时不需要花费金钱。
+可能存在遗漏的特性以后说明。</p>
+<h3 id="_19">插件作者</h3>
+<p>插件唯一作者为starkc。
+ivshop交流群：379178988。</p>
+<h3 id="_20">预计加入功能</h3>
+<p>目前还有尚未完善的功能，如商店设置点击无效是因为此功能还在开发中（不一定成品是这个功能）；
+预计还需加入的功能有：功能区内置物品检索，自动更新检测
+。。。</p>
+<h2 id="9">9.存在问题</h2>
+<p>目前插件存在一些特性：
+在背包UI的热键内的物品为你背包内的真实物品（上传物品操作）时，其可以被丢出，但是假数据包发送的假物品不能被丢出；
+在背包UI操作时，物品变更会更新显示的背包UI甚至会导致整个背包UI刷新。
+这些特性虽然无伤大雅，但是视觉效果不好，如果能够解决会尽量解决。使用中如发现其他问题可以在交流群找作者反馈。</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021 - 2022 xiaoioi mkdocs
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ba449ae6.min.js"></script>
+      
+    
+  </body>
+</html>
