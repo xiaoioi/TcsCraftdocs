@@ -26,6 +26,7 @@
 
 ### IP
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="500px" height="195px" scrolling=no src="//motd.smgoro.top/iframe.html?ip=k2.getmc.cn&port=15132&dark=false&join_open=true"></iframe>
+请忽略上面的结果
 
 IP:k2.getmc.cn
 
