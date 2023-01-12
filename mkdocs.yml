@@ -28,5 +28,6 @@ extra:
   generator: false
 markdown_extensions:
   - attr_list
+  - md_in_html
 # Repository
 repo_url: https://github.com/xiaoioi/TcsCraftdocs
