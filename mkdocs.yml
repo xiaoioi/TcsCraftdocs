@@ -43,7 +43,7 @@ nav:
     - 开始游玩: start.md
     - 活动日历: announcement.md
     - 常见问题: help.md
-copyright: Copyright &copy; 2021 - 2022 xiaoioi mkdocs
+copyright: Copyright &copy; 2021 - 2022 xiaoioi mkdocs       Cdm2883(oreui)
 extra:
   generator: false
 markdown_extensions:
@@ -53,4 +53,4 @@ markdown_extensions:
 repo_url: https://github.com/xiaoioi/TcsCraftdocs
 
 extra_css:
-  - css/mk-ore/main.css
+  - assets//mk-ore/main.css
