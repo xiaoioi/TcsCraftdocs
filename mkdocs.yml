@@ -7,6 +7,8 @@ theme:
   logo: assets/img/logo.png
   palette:
     scheme: mk-ore
+    primary: green
+    accent: green
   font:
     text: Roboto
     code: Source Code Pro
