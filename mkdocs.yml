@@ -33,4 +33,4 @@ markdown_extensions:
 repo_url: https://github.com/xiaoioi/TcsCraftdocs
 
 extra_css:
-  - assets/css/mk-ore/main.css
+  - css/mk-ore/main.css
