@@ -6,17 +6,7 @@ theme:
   favicon: assets/img/logo.png
   logo: assets/img/logo.png
   palette:
-    - scheme: mk-ore
-      primary: green
-      accent: green
-      toggle:
-        icon: material/brightness-7
-        name: Switch to OreUI
-    - scheme: slate
-      primary: black
-      toggle:
-        icon: material/brightness-4
-        name: Switch to Material2
+    scheme: mk-ore
   font:
     text: Roboto
     code: Source Code Pro
@@ -43,7 +33,7 @@ nav:
     - 开始游玩: start.md
     - 活动日历: announcement.md
     - 常见问题: help.md
-copyright: Copyright &copy; 2021 - 2022 xiaoioi mkdocs       Cdm2883(oreui)
+copyright: Tian brid-geo
 extra:
   generator: false
 markdown_extensions:
@@ -53,4 +43,4 @@ markdown_extensions:
 repo_url: https://github.com/xiaoioi/TcsCraftdocs
 
 extra_css:
-  - assets//mk-ore/main.css
+  - assets/css/mk-ore/main.css
