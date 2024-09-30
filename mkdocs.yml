@@ -1,23 +1,43 @@
 site_name: Tian 文档
+
 theme:
   name: material
   language: zh
+  favicon: assets/img/logo.png
+  logo: assets/img/logo.png
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: amber
+    - scheme: mk-ore
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: amber
+        name: Switch to OreUI
+    - scheme: slate
+      primary: black
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to Material2
+  font:
+    text: Roboto
+    code: Source Code Pro
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
 nav:
     - 首页: index.md
     - 开始游玩: start.md
